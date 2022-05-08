@@ -110,7 +110,7 @@ impl Contract {
             expires_at: None,
             starts_at: None,
             updated_at: None,
-            extra: None,
+            extra: Some("{legs:none}".into()),
             reference: None,
             reference_hash: None,
         };
